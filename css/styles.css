@@ -157,7 +157,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-bg.jpg);
-  background-size: 1440px;
+  max-width: 1440px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -214,11 +214,17 @@ img {
 
 .about-list {
   display: flex;
+  border-radius: 4px;
 }
+
+
+
+
 
 .about-list .item {
   width: 264px;
   margin-right: 24px;
+  border-radius: 4px;
 }
 
 .about-item::before {
@@ -229,6 +235,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 8px;
+  border-radius: 4px;
 }
 
 .icon-antenna::before {
@@ -398,7 +405,6 @@ img {
 }
 
 .customers-link {
-  padding: 16px 32px;
   border: 1px solid var(--customers-link-color);
   border-radius: 4px;
   color: var(--customers-link-color);
@@ -556,8 +562,8 @@ img {
   padding-right: 0;
 }
 
-.proposition-item:hover,
-.proposition-item:focus {
+.proposition-link:hover,
+.proposition-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
