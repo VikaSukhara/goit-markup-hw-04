@@ -7,9 +7,9 @@
   --background-secon-color: #2e2f42;
   --white-color: #ffffff;
   --border-bottom: #e7e9fc;
-  --hover-links-color:#404bbf;
-  --background-cards:#f4f4fd;
-  --customers-link-color: 8e8f99;
+  --hover-links-color: #404bbf;
+  --background-cards: #f4f4fd;
+  --customers-link-color: #8e8f99;
 }
 
 /* rule */
@@ -55,8 +55,6 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-
 
 /* .menu > li {
   border: 1px solid tomato;
