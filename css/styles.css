@@ -562,6 +562,10 @@ img {
   padding-right: 0;
 }
 
+.proposition-link{
+display: block;
+}
+
 .proposition-link:hover,
 .proposition-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
